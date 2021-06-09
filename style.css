@@ -1,0 +1,31 @@
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #132254;
+}
+
+a:hover {
+  color: orange;
+}
+
+/* -------------------- styler overskrifter -------------------- */
+h1 {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #132254;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #132254;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #132254;
+  font-weight: 200;
+}
+
+/* --------------------  MENU -------------------- */
