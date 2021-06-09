@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <script src="java.js"></script>
+    <script src="menu.js"></script>
     <title>Portfolio</title>
   </head>
 
@@ -19,48 +19,84 @@
     <header>
       <div class="logo">
         <a href="index.html">
-          <img src="img/ikon2.png" alt="logo" />
+          <h1>Emilie Fischer</h1>
         </a>
       </div>
       <nav>
-        <li><a href="index.html">FORSIDE</a></li>
-        <li><a href="om.html">OM MIG</a></li>
-        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <div id="menuknap">☰</div>
+        <ul id="menu" class="hidden">
+          <li><a href="index.html">FORSIDE</a></li>
+          <li><a href="om.html">OM MIG</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
       <section id="section_1">
-        <img src="img/splash.jpg" alt="kaffekop" />
-        <div class="forside_h1">
+        <div class="splashbillede">
           <h1>Velkommen</h1>
         </div>
       </section>
 
       <section id="section_2">
         <h2>1. Semester</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
-          fugit doloribus consectetur suscipit nam quidem aliquid error sed.
-          Doloribus voluptate ratione dicta officia impedit aspernatur deleniti
-          quam dolorum eos a!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis
-          beatae ipsam qui praesentium sed eligendi fuga maxime non dolor
-          dolorem minima ipsum amet veritatis eveniet, dignissimos laboriosam
-          possimus nihil ipsa?
-        </p>
+        <div class="section_wrapper">
+          <article class="p1_semester">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+              fugit doloribus consectetur suscipit nam quidem aliquid error sed.
+              Doloribus voluptate ratione dicta officia impedit aspernatur
+              deleniti quam dolorum eos a!
+            </p>
+          </article>
+          <article class="p2_semester">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Perferendis beatae ipsam qui praesentium sed eligendi fuga maxime
+              non dolor dolorem minima ipsum amet veritatis eveniet, dignissimos
+              laboriosam possimus nihil ipsa?
+            </p>
+          </article>
+        </div>
       </section>
 
       <section id="section_3">
         <h3>Temaoversigt</h3>
-        <div class="boks_1">
-          <h4></h4>
-          <h5></h5>
-          <img src="img/ikon2.png" alt="verden" />
-          <div class="btn">
-            <a href=""></a>
+        <div class="section_wrapper3">
+          <div class="boks_1">
+            <img src="img/ikon2.png" alt="verden" />
+            <div class="farve">
+              <h4>Tema 2</h4>
+              <h5>Grundlæggende Web</h5>
+            </div>
+          </div>
+
+          <div class="boks_2">
+            <h4>Tema 3</h4>
+            <h5>Grundlæggende UX</h5>
+            <img src="img/ikon2.png" alt="verden" />
+            <div class="btn">
+              <a href=""></a>
+            </div>
+          </div>
+
+          <div class="boks_3">
+            <h4>Tema 4</h4>
+            <h5>Animation</h5>
+            <img src="img/ikon2.png" alt="verden" />
+            <div class="btn">
+              <a href=""></a>
+            </div>
+          </div>
+
+          <div class="boks_4">
+            <h4>Tema 5</h4>
+            <h5>Grundlæggende Indhold</h5>
+            <img src="img/ikon2.png" alt="verden" />
+            <div class="btn">
+              <a href=""></a>
+            </div>
           </div>
         </div>
       </section>
