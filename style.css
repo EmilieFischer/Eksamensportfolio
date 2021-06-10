@@ -83,6 +83,7 @@ p {
   color: #132254;
   font-size: 0.9rem;
   font-weight: 200;
+  margin-right: 2rem;
 }
 
 .btn {
@@ -124,21 +125,6 @@ p {
 .btn2 {
   display: none;
 }
-
-/* .btn_op {
-  background-color: #132254;
-  padding: 4px 19px 4px 19px;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 50%;
-  margin-left: 21.3rem;
-  margin-top: 3rem;
-}
-
-.btn_op a {
-  color: white;
-  font-size: 3rem;
-} */
 
 /* --------------------  BURGERMENU -------------------- */
 .hidden {
@@ -235,8 +221,10 @@ nav {
 }
 
 .img_t2 img {
-  background-size: cover;
-  height: 15rem;
+  width: 25rem;
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 /* --------------------  Section 2 -------------------- */
@@ -457,4 +445,6 @@ footer {
     height: 3rem;
     padding: 3rem;
   }
+
+  /* --------------------  PORTFOLIO -------------------- */
 }
