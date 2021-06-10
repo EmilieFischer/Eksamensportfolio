@@ -161,7 +161,7 @@ nav {
   grid-row: 2/2;
 }
 
-#boks1 {
+.boks1 {
   background-color: #d2e3e6;
   height: 6rem;
 
@@ -173,13 +173,13 @@ nav {
   margin: 1rem;
 }
 
-#boks1 img {
+.boks1 img {
   height: 4rem;
   grid-column: 2/3;
   grid-row: 2/3;
 }
 
-#boks1 .boks_color {
+.boks1 .boks_color {
   background-color: white;
   grid-column: 4/8;
   grid-row: 2/3;
@@ -187,11 +187,11 @@ nav {
   height: 4rem;
 }
 
-#boks1 h4 {
+.boks1 h4 {
   margin: 0.5rem;
   text-align: start;
 }
-#boks1 h5 {
+.boks1 h5 {
   margin: 0.5rem;
   text-align: start;
 }
@@ -222,6 +222,20 @@ nav {
   background: white;
   grid-column: 4/6;
   grid-row: 1/2;
+}
+
+footer {
+  background-color: #d2e3e6;
+  padding-top: 1rem;
+  margin-top: 3rem;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer img {
+  height: 2rem;
 }
 
 /* ----------------------------------------  @mediaquery ---------------------------------------- */
