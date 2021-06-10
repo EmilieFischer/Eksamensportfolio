@@ -36,7 +36,7 @@ header {
   height: 15rem;
 }
 
-.logo {
+header .logo {
   font-size: 0.8rem;
 }
 
@@ -137,7 +137,7 @@ nav {
   transition: transform 0.3s;
 }
 
-/* --------------------  Section 2 -------------------- */
+/* --------------------  Section 1 -------------------- */
 #section_1 {
   margin-bottom: 3rem;
 }
@@ -160,6 +160,8 @@ nav {
 .p2_semester {
   grid-row: 2/2;
 }
+
+/* --------------------  Section 2 -------------------- */
 
 .boks1 {
   background-color: #d2e3e6;
@@ -228,7 +230,7 @@ nav {
 footer {
   background-color: #d2e3e6;
   margin-top: 3rem;
-  height: 12rem;
+  height: 14rem;
 }
 
 #footer {
@@ -260,19 +262,48 @@ footer {
 
   #menu li {
     display: inline-block;
+    padding: 2rem;
   }
 
-  /* section 2 fortsat
-  .section_wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  /* --------------------  FORSIDE -------------------- */
+  header {
+    height: 50rem;
   }
 
+  header .logo {
+    font-size: 1.4rem;
+  }
+  #section_1 {
+    margin-bottom: -7rem;
+  }
   .p1_semester {
     grid-column: 1/2;
+    grid-row: 1/1;
+    margin-right: 5rem;
   }
 
   .p2_semester {
-    grid-column: 1/2;
-  } */
+    grid-column: 2/2;
+    grid-row: 1/1;
+  }
+
+  .boks1 {
+    display: inline-block;
+    height: 18rem;
+    padding-right: 2.5rem;
+  }
+
+  .boks1 img {
+    height: 8rem;
+    padding-left: 4.1rem;
+    padding-top: 2.2rem;
+  }
+
+  .boks1 .boks_color {
+    background-color: #d2e3e6;
+  }
+  .btn {
+    margin-left: 32.3rem;
+    margin-top: 3rem;
+  }
 }
