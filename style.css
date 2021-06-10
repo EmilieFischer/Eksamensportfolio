@@ -24,6 +24,10 @@ a:hover {
   color: orange;
 }
 
+.section_wrapper {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
 /* --------------------  Header -------------------- */
 
 header {
@@ -52,7 +56,6 @@ h2 {
   text-decoration: none;
   color: #132254;
   font-weight: 400;
-  padding-left: 2rem;
 }
 
 h3 {
@@ -100,7 +103,25 @@ p {
   font-weight: 200;
 }
 
-.btn_op {
+.botton {
+  background-color: orange;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 33px;
+  margin-left: 7.9rem;
+  margin-top: 1rem;
+}
+
+.botton a {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+}
+
+/* .btn_op {
   background-color: #132254;
   padding: 4px 19px 4px 19px;
   text-decoration: none;
@@ -113,7 +134,7 @@ p {
 .btn_op a {
   color: white;
   font-size: 3rem;
-}
+} */
 
 /* --------------------  BURGERMENU -------------------- */
 .hidden {
@@ -209,8 +230,15 @@ nav {
   padding-right: 2rem;
 }
 
-/* --------------------  Section 2 -------------------- */
+.img_t2 img {
+  background-size: cover;
+  height: 15rem;
+}
 
+/* --------------------  Section 2 -------------------- */
+#section_2_om h2 {
+  padding-left: 2rem;
+}
 .boks1 {
   background-color: #d2e3e6;
   height: 6rem;
@@ -379,6 +407,10 @@ footer {
   #section_3_om {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+
+  #section_2_om h2 {
+    padding-left: 2rem;
   }
 
   .ul1 p {
