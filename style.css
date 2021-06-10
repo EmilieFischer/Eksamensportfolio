@@ -89,7 +89,7 @@ p {
   display: inline-block;
   font-size: 16px;
   border-radius: 33px;
-  margin-left: 8rem;
+  margin-left: 10rem;
   margin-top: 1rem;
 }
 
@@ -223,19 +223,26 @@ nav {
   grid-column: 4/6;
   grid-row: 1/2;
 }
+/* -------------------- Footer -------------------- */
 
 footer {
   background-color: #d2e3e6;
-  padding-top: 1rem;
   margin-top: 3rem;
+  height: 12rem;
 }
 
 #footer {
+  padding-top: 1rem;
   text-align: center;
 }
 
-#footer img {
+#sociale_medier {
+  display: flex;
+  justify-content: center;
+}
+#sociale_medier img {
   height: 2rem;
+  padding: 1rem;
 }
 
 /* ----------------------------------------  @mediaquery ---------------------------------------- */
