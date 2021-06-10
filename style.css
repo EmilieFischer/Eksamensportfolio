@@ -10,7 +10,7 @@ main {
   gap: 10px;
 }
 
-main section {
+main {
   grid-column: 2/3;
 } */
 
@@ -119,6 +119,10 @@ p {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 200;
+}
+
+.btn2 {
+  display: none;
 }
 
 /* .btn_op {
@@ -242,13 +246,15 @@ nav {
 .boks1 {
   background-color: #d2e3e6;
   height: 6rem;
-
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  display: flex;
 
   align-items: center;
   margin: 1rem;
+  gap: 0rem;
+}
+
+.boks1 a {
+  margin: 3rem;
 }
 
 .boks1 img {
@@ -259,8 +265,6 @@ nav {
 
 .boks1 .boks_color {
   background-color: white;
-  grid-column: 4/8;
-  grid-row: 2/3;
   width: 14rem;
   height: 4rem;
 }
@@ -363,25 +367,56 @@ footer {
     grid-row: 1/1;
   }
 
+  .section_wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
   .boks1 {
-    display: inline-block;
-    height: 18rem;
-    padding-right: 2.5rem;
+    height: 22rem;
+    width: 16rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .boks1 a {
+    margin: 0;
   }
 
   .boks1 img {
-    height: 8rem;
-    padding-left: 4.1rem;
-    padding-top: 2.2rem;
+    height: 10rem;
+    padding-left: 3.2rem;
   }
 
   .boks1 .boks_color {
     background-color: #d2e3e6;
+    grid-column: 1/2;
+    grid-row: 1/2;
   }
   .btn {
     margin-left: 32.3rem;
     margin-top: 3rem;
   }
+
+  .btn2 {
+    background-color: #132254;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 38px;
+    margin-left: 3.6rem;
+
+    width: 6rem;
+  }
+
+  .btn2 a {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+  }
+
   /* --------------------  OM MIG -------------------- */
   #section_2_om {
     display: grid;
