@@ -112,6 +112,8 @@ button {
   font-size: 1rem;
   border-radius: 33px;
   border: orange;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 button a {
@@ -122,6 +124,11 @@ button a {
 
 .boks1 button {
   display: none;
+}
+
+.col {
+  display: grid;
+  justify-items: center;
 }
 
 /* --------------------  BURGERMENU -------------------- */
@@ -347,6 +354,10 @@ footer {
   }
 
   /* --------------------  FORSIDE -------------------- */
+
+  button {
+    margin-bottom: 0;
+  }
   header {
     height: 50rem;
   }
@@ -447,49 +458,22 @@ footer {
   }
 
   /* --------------------  PORTFOLIO -------------------- */
-  .portfolio #section_1_portfolio .section_wrapper {
+  .portfolio .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin-bottom: 3rem;
   }
 
-  .portfolio #section_2_portfolio .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 3rem;
-
-    grid-column: 1/-1;
-  }
-
-  .portfolio #section_3_portfolio .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 3rem;
-  }
-
-  .portfolio #section_4_portfolio .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 3rem;
-  }
-
+  #section_4_portfolio article,
   #section_2_portfolio article {
     grid-column: 2/3;
-  }
-  #section_2_portfolio img {
     grid-row: 1;
   }
 
-  #section_4_portfolio article {
-    grid-column: 2/3;
-    display: grid;
-    justify-content: center;
-  }
-  #section_4_portfolio img {
+  #section_4_portfolio .col,
+  #section_2_portfolio .col {
+    grid-column: 1/2;
     grid-row: 1;
   }
 }
