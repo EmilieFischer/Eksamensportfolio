@@ -311,6 +311,26 @@ nav {
   grid-column: 4/6;
   grid-row: 1/2;
 }
+
+/* -------------------- PORTFOLIO -------------------- */
+
+.portfolio .section_wrapper {
+  margin-bottom: 4rem;
+}
+
+.portfolio .section_wrapper .botton {
+  margin-bottom: 2rem;
+  margin-left: 7rem;
+}
+
+.portfolio #section_2_portfolio .section_wrapper {
+  background: #d2e3e6;
+}
+
+.portfolio #section_4_portfolio .section_wrapper {
+  background: #d2e3e6;
+}
+
 /* -------------------- Footer -------------------- */
 
 footer {
@@ -478,6 +498,7 @@ footer {
     gap: 40px;
     margin-bottom: 3rem;
     background: #d2e3e6;
+    grid-column: 1/-1;
   }
 
   .portfolio #section_3_portfolio .section_wrapper {
