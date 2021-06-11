@@ -30,13 +30,14 @@ a {
   color: #132254;
 }
 
-a:hover {
+header a:hover {
   color: orange;
 }
 
 .section_wrapper {
   margin-right: 1rem;
   margin-left: 1rem;
+  margin-top: 2rem;
 }
 
 img {
@@ -104,43 +105,22 @@ p {
   margin-right: 2rem;
 }
 
-.btn {
+button {
   background-color: orange;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  width: 9.6rem;
+  height: 3.5rem;
+  font-size: 1rem;
   border-radius: 33px;
-  margin-left: 7.9rem;
-  margin-top: 1rem;
+  border: orange;
 }
 
-.btn a {
+button a {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 200;
 }
 
-.botton {
-  background-color: orange;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 33px;
-  margin-left: 7.9rem;
-  margin-top: 1rem;
-}
-
-.botton a {
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 200;
-}
-
-.btn2 {
+.boks1 button {
   display: none;
 }
 
@@ -202,6 +182,7 @@ nav {
 #section_1_om img {
   border-radius: 50%;
   height: 14rem;
+  width: auto;
   grid-column: 2/3;
   margin-top: 2rem;
 }
@@ -227,6 +208,7 @@ nav {
 .ul1 img {
   height: 6rem;
   padding: 1rem;
+  width: auto;
 }
 
 .p1_om {
@@ -323,14 +305,6 @@ nav {
   margin-left: 7rem;
 }
 
-.portfolio #section_2_portfolio .section_wrapper {
-  background: #d2e3e6;
-}
-
-.portfolio #section_4_portfolio .section_wrapper {
-  background: #d2e3e6;
-}
-
 /* -------------------- Footer -------------------- */
 
 footer {
@@ -351,6 +325,7 @@ footer {
 #sociale_medier img {
   height: 2rem;
   padding: 1rem;
+  width: auto;
 }
 
 /* ----------------------------------------  @mediaquery ---------------------------------------- */
@@ -381,6 +356,7 @@ footer {
   }
   #section_1 {
     margin-bottom: -7rem;
+    height: 24rem;
   }
   .p1_semester {
     grid-column: 1/2;
@@ -403,44 +379,29 @@ footer {
     width: 16rem;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  .boks1 button {
+    display: ruby;
+    margin: 2rem;
+    background-color: #132254;
   }
 
   .boks1 a {
     margin: 0;
+    display: grid;
   }
 
   .boks1 img {
     height: 10rem;
-    padding-left: 3.2rem;
+    width: auto;
   }
 
   .boks1 .boks_color {
     background-color: #d2e3e6;
     grid-column: 1/2;
     grid-row: 1/2;
-  }
-  .btn {
-    margin-left: 32.3rem;
-    margin-top: 3rem;
-  }
-
-  .btn2 {
-    background-color: #132254;
-    padding: 11px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    border-radius: 38px;
-    margin-left: 3.6rem;
-
-    width: 6rem;
-  }
-
-  .btn2 a {
-    color: white;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 200;
   }
 
   /* --------------------  OM MIG -------------------- */
@@ -480,8 +441,9 @@ footer {
   }
 
   .ul1 img {
-    height: 3rem;
+    height: 5rem;
     padding: 3rem;
+    width: auto;
   }
 
   /* --------------------  PORTFOLIO -------------------- */
@@ -497,7 +459,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin-bottom: 3rem;
-    background: #d2e3e6;
+
     grid-column: 1/-1;
   }
 
@@ -513,7 +475,6 @@ footer {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin-bottom: 3rem;
-    background: #d2e3e69a;
   }
 
   #section_2_portfolio article {
@@ -525,15 +486,10 @@ footer {
 
   #section_4_portfolio article {
     grid-column: 2/3;
+    display: grid;
+    justify-content: center;
   }
   #section_4_portfolio img {
     grid-row: 1;
-  }
-
-  .portfolio .section_wrapper .botton {
-    margin-top: 7rem;
-    margin-left: 11rem;
-  }
-  .portfolio .section_wrapper img {
   }
 }
