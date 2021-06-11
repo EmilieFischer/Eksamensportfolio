@@ -238,6 +238,11 @@ nav {
 #section_2_om h2 {
   padding-left: 2rem;
 }
+
+#section_2_om h4 {
+  padding-left: 2rem;
+}
+
 .boks1 {
   background-color: #d2e3e6;
   height: 6rem;
@@ -311,6 +316,8 @@ nav {
   margin-bottom: 2rem;
   margin-left: 7rem;
 }
+
+/* --------------------  Tema 2 -------------------- */
 
 /* -------------------- Footer -------------------- */
 
@@ -394,7 +401,7 @@ footer {
   }
 
   .boks1 button {
-    display: ruby;
+    display: inline;
     margin: 2rem;
     background-color: #132254;
   }
@@ -416,7 +423,8 @@ footer {
   }
 
   /* --------------------  OM MIG -------------------- */
-  #section_2_om {
+  #section_2_om,
+  #section_2_refleks {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -428,7 +436,8 @@ footer {
     grid-row: 2/3;
   }
 
-  .p2_om {
+  .p2_om,
+  .p1_reflektion {
     grid-column: 2/2;
     grid-row: 2/3;
   }
