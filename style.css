@@ -327,6 +327,10 @@ footer {
   height: 14rem;
 }
 
+footer p {
+  margin-right: 0;
+}
+
 #footer {
   padding-top: 1rem;
   text-align: center;
@@ -484,5 +488,15 @@ footer {
   #section_2_portfolio .col {
     grid-column: 1/2;
     grid-row: 1;
+  }
+
+  /* --------------------  PORTFOLIO -------------------- */
+  footer {
+    height: 5rem;
+    padding: 2rem;
+  }
+  #footer {
+    display: flex;
+    justify-content: space-between;
   }
 }
