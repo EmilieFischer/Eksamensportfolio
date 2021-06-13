@@ -239,6 +239,11 @@ nav {
   padding-bottom: 1rem;
 }
 
+/* portfolio side */
+#section_1_portfolio .section_wrapper {
+  grid-gap: 30px;
+}
+
 /* --------------------  Section 2 -------------------- */
 #section_2_om h2 {
   padding-left: 2rem;
