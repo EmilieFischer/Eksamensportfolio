@@ -442,7 +442,20 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 18rem;
+    height: 17rem;
+  }
+
+  #section_2_refleks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 12rem;
+    background-color: #d2e3e6;
+    margin-bottom: 3rem;
+  }
+
+  #section_2_refleks h3 {
+    margin-left: 2rem;
   }
 
   .p1_om {
@@ -450,8 +463,18 @@ footer p {
     grid-row: 2/3;
   }
 
-  .p2_om,
+  .p2_om {
+    grid-column: 2/2;
+    grid-row: 2/3;
+  }
+
   .p1_reflektion {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 2rem;
+  }
+
+  .p2_reflektion {
     grid-column: 2/2;
     grid-row: 2/3;
   }
