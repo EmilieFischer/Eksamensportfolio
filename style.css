@@ -131,6 +131,11 @@ button a {
   justify-items: center;
 }
 
+video {
+  width: 100%;
+  height: auto;
+}
+
 /* --------------------  BURGERMENU -------------------- */
 .hidden {
   opacity: 0;
@@ -484,7 +489,7 @@ footer p {
     grid-row: 1;
   }
 
-  #section_4_portfolio .col,
+  #section_4_portsfolio .col,
   #section_2_portfolio .col {
     grid-column: 1/2;
     grid-row: 1;
