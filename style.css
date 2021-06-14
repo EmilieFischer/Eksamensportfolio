@@ -102,6 +102,7 @@ p {
   font-size: 0.9rem;
   font-weight: 200;
   margin-right: 2rem;
+  text-align: justify;
 }
 
 /* --------ORANGE KNAP-------- */
@@ -114,7 +115,7 @@ p {
   display: grid;
   justify-content: center;
   align-items: center;
-  background-color: orange;
+  background-color: #ffa500;
   width: 9.6rem;
   height: 3.5rem;
   border-radius: 33px;
@@ -268,16 +269,6 @@ nav {
   padding-bottom: 1rem;
 }
 
-/* portfolio side */
-#section_1_portfolio .section_wrapper,
-#section_2_portfolio .section_wrapper,
-#section_3_portfolio .section_wrapper,
-#section_4_portfolio .section_wrapper,
-#section_5_portfolio .section_wrapper,
-#section_6_portfolio .section_wrapper {
-  grid-gap: 30px;
-}
-
 /* --------------------  Section 2 -------------------- */
 #section_2_om h2,
 #section_refleksion h2 {
@@ -356,6 +347,7 @@ nav {
 
 .portfolio .section_wrapper {
   margin-bottom: 4rem;
+  grid-gap: 30px;
 }
 
 .portfolio .section_wrapper .botton {
@@ -375,6 +367,7 @@ footer {
 
 footer p {
   margin-right: 0;
+  text-align: center;
 }
 
 #footer {
@@ -382,6 +375,9 @@ footer p {
   text-align: center;
 }
 
+#footer p {
+  text-align: center;
+}
 #sociale_medier {
   display: flex;
   justify-content: center;
