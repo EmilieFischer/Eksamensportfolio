@@ -461,7 +461,7 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 17rem;
+    height: 18rem;
   }
 
   .p1_om {
