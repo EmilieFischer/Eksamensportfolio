@@ -93,7 +93,6 @@ h4 {
 h5 {
   font-family: "Open Sans", sans-serif;
   color: #132254;
-
   font-weight: 200;
 }
 
@@ -105,24 +104,53 @@ p {
   margin-right: 2rem;
 }
 
-button {
+/* --------ORANGE KNAP-------- */
+.button_container {
+  display: grid;
+  justify-content: center;
+}
+
+.button {
+  display: grid;
+  justify-content: center;
+  align-items: center;
   background-color: orange;
   width: 9.6rem;
   height: 3.5rem;
-  font-size: 1rem;
   border-radius: 33px;
-  border: orange;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-button a {
+.button a {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 200;
 }
+/* --------BLÅ KNAP-------- */
 
-.boks1 button {
+.button_container {
+  display: grid;
+  justify-content: center;
+}
+
+.button_blue {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #132254;
+  width: 9.6rem;
+  height: 3.5rem;
+  border-radius: 33px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.button_blue a {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.boks1 .button_blue {
   display: none;
 }
 
@@ -384,7 +412,7 @@ footer p {
 
   /* --------------------  FORSIDE -------------------- */
 
-  button {
+  .button_blue {
     margin-bottom: 0;
   }
   header {
@@ -422,10 +450,10 @@ footer p {
     justify-content: center;
   }
 
-  .boks1 button {
-    display: inline;
+  .boks1 .button_blue {
     margin: 2rem;
     background-color: #132254;
+    display: grid;
   }
 
   .boks1 a {
