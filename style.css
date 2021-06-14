@@ -199,7 +199,8 @@ nav {
   margin-top: 2rem;
 }
 
-#section_2_om {
+#section_2_om,
+#section_refleksion {
   display: grid;
   background-color: #d2e3e6;
   padding-top: 1rem;
@@ -240,16 +241,23 @@ nav {
 }
 
 /* portfolio side */
-#section_1_portfolio .section_wrapper {
+#section_1_portfolio .section_wrapper,
+#section_2_portfolio .section_wrapper,
+#section_3_portfolio .section_wrapper,
+#section_4_portfolio .section_wrapper,
+#section_5_portfolio .section_wrapper,
+#section_6_portfolio .section_wrapper {
   grid-gap: 30px;
 }
 
 /* --------------------  Section 2 -------------------- */
-#section_2_om h2 {
+#section_2_om h2,
+#section_refleksion h2 {
   padding-left: 2rem;
 }
 
-#section_2_om h4 {
+#section_2_om h4,
+#section_refleksion h4 {
   padding-left: 2rem;
 }
 
@@ -438,24 +446,11 @@ footer p {
 
   /* --------------------  OM MIG -------------------- */
   #section_2_om,
-  #section_2_refleks {
+  #section_refleksion {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 17rem;
-  }
-
-  #section_2_refleks {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 12rem;
-    background-color: #d2e3e6;
-    margin-bottom: 3rem;
-  }
-
-  #section_2_refleks h3 {
-    margin-left: 2rem;
   }
 
   .p1_om {
@@ -488,7 +483,8 @@ footer p {
     grid-template-rows: 1fr 1fr;
   }
 
-  #section_2_om h2 {
+  #section_2_om h2,
+  #section_refleksion h2 {
     padding-left: 2rem;
   }
 
@@ -531,5 +527,15 @@ footer p {
   #footer {
     display: flex;
     justify-content: space-between;
+  }
+  /* --------------------  DOKUMENTATION -------------------- */
+
+  .section_dokumentation .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section_dokumentation .section_wrapper article {
+    grid-column: 1/2;
   }
 }
