@@ -218,19 +218,23 @@ nav {
 }
 
 .fact img {
-  height: 6rem;
-  padding: 1rem;
+  height: 5rem;
+  padding: 1.5rem;
   width: auto;
 }
 
-.p1_om {
+.p1_om,
+.p1_refleksion {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.p2_om {
+.p2_om,
+.p2_refleksion {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+/* -----  færdig side  */
 
 .img_t2 img {
   width: 25rem;
@@ -451,18 +455,20 @@ footer p {
     height: 18rem;
   } */
 
-  .p1_om {
+  .p1_om,
+  .p1_refleksion {
     grid-column: 1/2;
     /* grid-row: 2/3; */
   }
 
-  .p2_om {
+  .p2_om,
+  .p2_refleksion {
     grid-column: 2/2;
     /* grid-row: 2/3; */
     padding-right: 0;
   }
 
-  .p1_reflektion {
+  /* .p1_reflektion {
     grid-column: 1/2;
     grid-row: 2/3;
     margin-left: 2rem;
@@ -471,7 +477,7 @@ footer p {
   .p2_reflektion {
     grid-column: 2/2;
     grid-row: 2/3;
-  }
+  } */
 
   #section_1_om img {
     height: 25rem;
@@ -501,25 +507,29 @@ footer p {
 
   /* --------------------  PORTFOLIO -------------------- */
   .portfolio .section_wrapper {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin-bottom: 3rem;
   }
 
-  #section_4_portfolio article,
+  /* #section_4_portfolio article,
   #section_2_portfolio article {
     grid-column: 2/3;
     grid-row: 1;
-  }
+  } */
 
-  #section_4_portsfolio .col,
+  #section_4_portfolio .col,
   #section_2_portfolio .col {
-    grid-column: 1/2;
+    /* grid-column: 1/2; */
     grid-row: 1;
   }
 
-  /* --------------------  PORTFOLIO -------------------- */
+  .col img {
+    margin-top: 1rem;
+  }
+
+  /* --------------------  FOOTER -------------------- */
   footer {
     height: 5rem;
     padding: 2rem;
@@ -530,12 +540,12 @@ footer p {
   }
   /* --------------------  DOKUMENTATION -------------------- */
 
-  .section_dokumentation .section_wrapper {
+  /* .section_dokumentation .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
   .section_dokumentation .section_wrapper article {
     grid-column: 1/2;
-  }
+  } */
 }
