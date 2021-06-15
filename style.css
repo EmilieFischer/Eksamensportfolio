@@ -236,14 +236,14 @@ nav {
 
 /* -----  færdig side  */
 
-.img_t2 img {
+/* .img_t2 img {
   width: 25rem;
   height: auto;
   padding-top: 2rem;
   padding-bottom: 1rem;
-}
+} */
 
-/* --------------------  Section 2 -------------------- */
+/* --------------------  Section 2 forside -------------------- */
 #section_2_om h2,
 #section_refleksion h2 {
   padding-left: 2rem;
@@ -290,13 +290,13 @@ nav {
 }
 
 /* --------------------  Section 3 -------------------- */
-.section_wrapper3 {
+/* .section_wrapper3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(9, 1fr);
-}
+} */
 
-.boks_1 {
+/* .boks_1 {
   background-color: cadetblue;
   grid-column: 1/3;
   grid-row: 1/2;
@@ -309,13 +309,13 @@ nav {
   height: 6rem;
   place-content: start;
   grid-column: 1/2;
-}
+} */
 
-.farve {
+/* .farve {
   background: white;
   grid-column: 4/6;
   grid-row: 1/2;
-}
+} */
 
 /* -------------------- PORTFOLIO -------------------- */
 
@@ -324,10 +324,10 @@ nav {
   grid-gap: 30px;
 }
 
-.portfolio .section_wrapper .botton {
+/* .portfolio .section_wrapper .botton {
   margin-bottom: 2rem;
   margin-left: 7rem;
-}
+} */
 
 /* --------------------  Tema 2 -------------------- */
 
