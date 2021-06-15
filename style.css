@@ -158,9 +158,6 @@ nav {
 }
 
 /* --------------------  Forside Section 1 -------------------- */
-/* #section_1 {
-  margin-bottom: 3rem;
-} */
 
 #section_1 h2 {
   padding-top: 1rem;
@@ -168,19 +165,9 @@ nav {
 
 .section_wrapper {
   display: grid;
-  /* margin-right: 1rem;
-  margin-left: 1rem;
-  margin-top: 2rem; */
+
   margin-left: 1rem;
 }
-
-/* .p1_semester {
-  grid-row: 1/2;
-}
-
-.p2_semester {
-  grid-row: 2/2;
-} */
 
 /* --------------------  Om mig siden -------------------- */
 
@@ -207,9 +194,6 @@ nav {
 }
 
 #section_3_om {
-  /* display: grid; */
-  /* grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 1fr); */
   margin-top: 2rem;
 }
 
@@ -233,15 +217,6 @@ nav {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
-/* -----  færdig side  */
-
-/* .img_t2 img {
-  width: 25rem;
-  height: auto;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-} */
 
 /* --------------------  Section 2 forside -------------------- */
 #section_2_om h2,
@@ -289,47 +264,12 @@ nav {
   text-align: start;
 }
 
-/* --------------------  Section 3 -------------------- */
-/* .section_wrapper3 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(9, 1fr);
-} */
-
-/* .boks_1 {
-  background-color: cadetblue;
-  grid-column: 1/3;
-  grid-row: 1/2;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1fr;
-}
-
-.boks_1 img {
-  height: 6rem;
-  place-content: start;
-  grid-column: 1/2;
-} */
-
-/* .farve {
-  background: white;
-  grid-column: 4/6;
-  grid-row: 1/2;
-} */
-
 /* -------------------- PORTFOLIO -------------------- */
 
 .portfolio .section_wrapper {
   margin-bottom: 4rem;
   grid-gap: 30px;
 }
-
-/* .portfolio .section_wrapper .botton {
-  margin-bottom: 2rem;
-  margin-left: 7rem;
-} */
-
-/* --------------------  Tema 2 -------------------- */
 
 /* -------------------- Footer -------------------- */
 
@@ -401,14 +341,11 @@ footer p {
     height: 24rem;
   }
   .p1_semester {
-    /* grid-column: 1/2;
-    grid-row: 1/1; */
     margin-right: 5rem;
   }
 
   .p2_semester {
     grid-column: 2/2;
-    /* grid-row: 1/1; */
   }
 
   #boks_container {
@@ -447,37 +384,17 @@ footer p {
   }
 
   /* --------------------  OM MIG -------------------- */
-  /* #section_2_om,
-  #section_refleksion {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 18rem;
-  } */
 
   .p1_om,
   .p1_refleksion {
     grid-column: 1/2;
-    /* grid-row: 2/3; */
   }
 
   .p2_om,
   .p2_refleksion {
     grid-column: 2/2;
-    /* grid-row: 2/3; */
     padding-right: 0;
   }
-
-  /* .p1_reflektion {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    margin-left: 2rem;
-  }
-
-  .p2_reflektion {
-    grid-column: 2/2;
-    grid-row: 2/3;
-  } */
 
   #section_1_om img {
     height: 25rem;
@@ -507,21 +424,13 @@ footer p {
 
   /* --------------------  PORTFOLIO -------------------- */
   .portfolio .section_wrapper {
-    /* display: grid; */
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin-bottom: 3rem;
   }
 
-  /* #section_4_portfolio article,
-  #section_2_portfolio article {
-    grid-column: 2/3;
-    grid-row: 1;
-  } */
-
   #section_4_portfolio .col,
   #section_2_portfolio .col {
-    /* grid-column: 1/2; */
     grid-row: 1;
   }
 
@@ -538,14 +447,4 @@ footer p {
     display: flex;
     justify-content: space-between;
   }
-  /* --------------------  DOKUMENTATION -------------------- */
-
-  /* .section_dokumentation .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .section_dokumentation .section_wrapper article {
-    grid-column: 1/2;
-  } */
 }
