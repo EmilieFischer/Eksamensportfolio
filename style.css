@@ -157,10 +157,10 @@ nav {
   justify-items: center;
 }
 
-/* --------------------  Section 1 -------------------- */
-#section_1 {
+/* --------------------  Forside Section 1 -------------------- */
+/* #section_1 {
   margin-bottom: 3rem;
-}
+} */
 
 #section_1 h2 {
   padding-top: 1rem;
@@ -168,31 +168,25 @@ nav {
 
 .section_wrapper {
   display: grid;
-  /* grid-template-rows: repeat(2, 1fr); */
-  margin-right: 1rem;
+  /* margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 2rem; */
   margin-left: 1rem;
 }
 
-.p1_semester {
+/* .p1_semester {
   grid-row: 1/2;
 }
 
 .p2_semester {
   grid-row: 2/2;
-}
+} */
 
-.section_wrapper {
-  margin-right: 1rem;
-  margin-left: 1rem;
-  margin-top: 2rem;
-}
-
-/* om mig side */
+/* --------------------  Om mig siden -------------------- */
 
 #section_1_om {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 2rem;
 }
 
 #section_1_om img {
@@ -201,6 +195,7 @@ nav {
   width: auto;
   grid-column: 2/3;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #section_2_om,
@@ -212,17 +207,17 @@ nav {
 }
 
 #section_3_om {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 1fr);
+  /* display: grid; */
+  /* grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr); */
   margin-top: 2rem;
 }
 
-.ul1 {
+.fact {
   display: flex;
 }
 
-.ul1 img {
+.fact img {
   height: 6rem;
   padding: 1rem;
   width: auto;
@@ -255,7 +250,7 @@ nav {
   padding-left: 2rem;
 }
 
-.boks1 {
+.boks {
   background-color: #d2e3e6;
   height: 6rem;
   display: flex;
@@ -265,27 +260,27 @@ nav {
   gap: 0rem;
 }
 
-.boks1 a {
+.boks a {
   margin: 2rem;
 }
 
-.boks1 img {
+.boks img {
   height: 4rem;
   grid-column: 2/3;
   grid-row: 2/3;
 }
 
-.boks1 .boks_color {
+.boks .boks_color {
   background-color: white;
   width: 55%;
   height: 4rem;
 }
 
-.boks1 h4 {
+.boks h4 {
   margin: 0.5rem;
   text-align: start;
 }
-.boks1 h5 {
+.boks h5 {
   margin: 0.5rem;
   text-align: start;
 }
@@ -402,22 +397,22 @@ footer p {
     height: 24rem;
   }
   .p1_semester {
-    grid-column: 1/2;
-    grid-row: 1/1;
+    /* grid-column: 1/2;
+    grid-row: 1/1; */
     margin-right: 5rem;
   }
 
   .p2_semester {
     grid-column: 2/2;
-    grid-row: 1/1;
+    /* grid-row: 1/1; */
   }
 
-  .section_wrapper2 {
+  #boks_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .boks1 {
+  .boks {
     height: 22rem;
     width: 16rem;
     display: grid;
@@ -425,45 +420,46 @@ footer p {
     justify-content: center;
   }
 
-  .boks1 .button_blue {
+  .boks .button_blue {
     margin: 2rem;
     background-color: #132254;
     display: grid;
   }
 
-  .boks1 a {
+  .boks a {
     margin: 0;
     display: grid;
   }
 
-  .boks1 img {
+  .boks img {
     height: 10rem;
     width: auto;
   }
 
-  .boks1 .boks_color {
+  .boks .boks_color {
     background-color: #d2e3e6;
     grid-column: 1/2;
     grid-row: 1/2;
   }
 
   /* --------------------  OM MIG -------------------- */
-  #section_2_om,
+  /* #section_2_om,
   #section_refleksion {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 18rem;
-  }
+  } */
 
   .p1_om {
     grid-column: 1/2;
-    grid-row: 2/3;
+    /* grid-row: 2/3; */
   }
 
   .p2_om {
     grid-column: 2/2;
-    grid-row: 2/3;
+    /* grid-row: 2/3; */
+    padding-right: 0;
   }
 
   .p1_reflektion {
@@ -482,6 +478,7 @@ footer p {
   }
 
   #section_3_om {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
@@ -491,12 +488,12 @@ footer p {
     padding-left: 2rem;
   }
 
-  .ul1 p {
+  .fact p {
     padding-top: 2rem;
     padding-right: 2rem;
   }
 
-  .ul1 img {
+  .fact img {
     height: 5rem;
     padding: 3rem;
     width: auto;
