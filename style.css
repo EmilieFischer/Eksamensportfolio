@@ -24,7 +24,7 @@ header {
   justify-content: space-between;
   padding-left: 2%;
   padding-right: 2%;
-  background-image: url(IMG/splash.jpg);
+  background-image: url(IMG/splashbillede_mobil.svg);
   background-size: cover;
   height: 15rem;
   overflow: hidden;
@@ -331,6 +331,12 @@ footer p {
   }
   header {
     height: 50rem;
+    background-image: url(IMG/splashbillede.svg);
+  }
+
+  #underside header {
+    background-image: url(IMG/underside_splash.svg);
+    height: 24rem;
   }
 
   header .logo {
